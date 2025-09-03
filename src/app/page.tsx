@@ -316,7 +316,7 @@ export default function MiyomiSovereign() {
                 CONTRARIAN ORACLE
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                AI-driven market analysis finding inefficiencies where consensus gets comfortable
+                AI-driven market analysis finding inefficiencies where consensus gets comfortable • Git Deployment Active
               </p>
               
               <div className="grid md:grid-cols-4 gap-4 mb-8">
