@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --grid-base: 8px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Eden Academy Design System */
+.eden-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--grid-base);
+}
+
+.eden-grid {
+  display: grid;
+  gap: var(--grid-base);
+}
+
+.eden-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: calc(var(--grid-base) / 2);
+  padding: calc(var(--grid-base) * 3);
+}
+
+.eden-text-header {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Live data animations */
+.pulse-green {
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+@keyframes pulse-green {
+  0%, 100% { color: #10b981; }
+  50% { color: #34d399; }
+}
+
+.pulse-red {
+  animation: pulse-red 2s ease-in-out infinite;
+}
+
+@keyframes pulse-red {
+  0%, 100% { color: #ef4444; }
+  50% { color: #f87171; }
+}
