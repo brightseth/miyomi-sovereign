@@ -43,12 +43,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "DATABASE_URL": "@miyomi_database_url",
-    "WS_SOURCE": "@miyomi_ws_source",
-    "NEXT_PUBLIC_WS_URL": "@miyomi_ws_url",
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key"
-  }
+  ]
 }
