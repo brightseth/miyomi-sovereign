@@ -44,9 +44,6 @@
       ]
     }
   ],
-  "domains": [
-    "miyomi.eden2.io"
-  ],
   "env": {
     "DATABASE_URL": "@miyomi_database_url",
     "WS_SOURCE": "@miyomi_ws_source",
